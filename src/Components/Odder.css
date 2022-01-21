@@ -1,0 +1,46 @@
+.table_container{
+    margin: 2rem;
+}
+.table_container> h3{
+    color: lightgreen;
+    padding: 5px 0px 5px 0px;
+}
+.odder_filter{
+    margin: 8px 0px 15px 0px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.odder_filter> input, select{
+    width: 30%;
+    padding: 3px 12px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 1px 1px 10px 5px rgb(236, 235, 235);
+}
+.odder_table{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+}
+.odder_table th, td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(241, 240, 240);
+    
+}
+.odder_table th{
+    color: white;
+    padding-left: 8px;
+    text-align: left;
+    background-color: lightblue;
+}
+.odder_table td{
+    padding: 8px;
+    font-weight: 600;
+    
+
+}
